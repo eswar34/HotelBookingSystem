@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD:AuthAndSecurity/HotelBookingSystem.API/obj/HotelBookingSystem.API.csproj.nuget.dgspec.json
     "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingWebsite\\HotelBookingSystem\\AuthAndSecurity\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj": {}
   },
@@ -15,31 +16,44 @@
         "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingWebsite\\HotelBookingSystem\\AuthAndSecurity\\HotelBookingSystem.API\\obj\\",
 =======
     "C:\\Users\\DELL\\source\\repos\\HotelBookingSystem.API\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj": {}
+=======
+    "C:\\Users\\leela krishna\\OneDrive\\Documents\\GitHub\\HotelBookingSystem\\Eswar\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj": {}
+>>>>>>> a44f3787bc472c317890b3c707768db4a712e4c3
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\HotelBookingSystem.API\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj": {
+    "C:\\Users\\leela krishna\\OneDrive\\Documents\\GitHub\\HotelBookingSystem\\Eswar\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\HotelBookingSystem.API\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj",
+        "projectUniqueName": "C:\\Users\\leela krishna\\OneDrive\\Documents\\GitHub\\HotelBookingSystem\\Eswar\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj",
         "projectName": "HotelBookingSystem.API",
+<<<<<<< HEAD
         "projectPath": "C:\\Users\\DELL\\source\\repos\\HotelBookingSystem.API\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\DELL\\source\\repos\\HotelBookingSystem.API\\HotelBookingSystem.API\\obj\\",
 >>>>>>> a84c4e8b1af58b8f00832fd80a0ebe046a9b391d:Eswar/HotelBookingSystem.API/obj/HotelBookingSystem.API.csproj.nuget.dgspec.json
+=======
+        "projectPath": "C:\\Users\\leela krishna\\OneDrive\\Documents\\GitHub\\HotelBookingSystem\\Eswar\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj",
+        "packagesPath": "C:\\Users\\leela krishna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leela krishna\\OneDrive\\Documents\\GitHub\\HotelBookingSystem\\Eswar\\HotelBookingSystem.API\\obj\\",
+>>>>>>> a44f3787bc472c317890b3c707768db4a712e4c3
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\leela krishna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> a44f3787bc472c317890b3c707768db4a712e4c3
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+=======
+>>>>>>> a44f3787bc472c317890b3c707768db4a712e4c3
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
