@@ -61,7 +61,6 @@ namespace HotelBookingSystem.API.Services.Implementations
                     UserId = user.UserId,
                     FullName = user.FullName,
                     Email = user.Email,
-                    Role = user.Role
                 }
             };
         }

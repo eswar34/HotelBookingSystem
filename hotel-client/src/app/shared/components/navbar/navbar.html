@@ -7,10 +7,7 @@
   </div>
 
   <div class="links" *ngIf="isAuthenticated() && user()?.role === 'Admin'">
-    <a routerLink="/admin/dashboard">Dashboard</a>
-    <a routerLink="/admin/managers">Managers</a>
-    <a routerLink="/admin/hotels">Hotels</a>
-    <a routerLink="/admin/amenities">Amenities</a>
+    <a routerLink="/admin/bookings">All Bookings</a>
   </div>
 
   <div class="links" *ngIf="isAuthenticated() && user()?.role === 'Manager'">
@@ -21,7 +18,6 @@
   </div>
 
   <div class="links" *ngIf="isAuthenticated() && user()?.role === 'Customer'">
-    <a routerLink="/customer/hotels">Hotels</a>
     <a routerLink="/customer/my-bookings">My Bookings</a>
   </div>
 

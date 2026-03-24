@@ -2,5 +2,5 @@
   <h2>Login successful</h2>
   <p class="hint">You are signed in successfully.</p>
 
-  <a class="btn btn-primary" routerLink="/login">Back to Login</a>
+  <a class="btn btn-primary" [routerLink]="nextRoute()">{{ nextLabel() }}</a>
 </section>

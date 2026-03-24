@@ -9,5 +9,7 @@
         public string Role { get; set; } = "Customer";
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+        public Hotel? ManagedHotel { get; set; }
+        public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
     }
 }

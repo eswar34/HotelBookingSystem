@@ -1,0 +1,40 @@
+.bookings-wrap {
+  margin: 1rem auto;
+  max-width: 1100px;
+}
+
+.create-booking-card {
+  margin-bottom: 1rem;
+}
+
+.booking-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  align-items: end;
+}
+
+.booking-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.booking-form input,
+.booking-form select {
+  border: 1px solid #cbd5e1;
+  border-radius: 0.45rem;
+  padding: 0.45rem 0.55rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.success {
+  color: #15803d;
+}
