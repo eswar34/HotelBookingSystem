@@ -1,0 +1,77 @@
+<section class="card bookings-wrap">
+  <h2>My Bookings</h2>
+
+  <section class="card create-booking-card">
+    <h3>Book a Hotel Room</h3>
+
+    <form [formGroup]="form" (ngSubmit)="submitBooking()" class="booking-form">
+      <label>
+        Hotel ID
+        <input type="number" min="1" formControlName="hotelId" placeholder="Enter hotel id" />
+      </label>
+
+      <label>
+        Room ID
+        <input type="number" min="1" formControlName="roomId" placeholder="Enter room id" />
+      </label>
+
+      <label>
+        Check In
+        <input type="date" formControlName="checkInDate" />
+      </label>
+
+      <label>
+        Check Out
+        <input type="date" formControlName="checkOutDate" />
+      </label>
+
+      <button class="btn btn-primary" type="submit" [disabled]="submitting">
+        {{ submitting ? 'Booking...' : 'Book Now' }}
+      </button>
+    </form>
+
+    <p class="success" *ngIf="bookingSuccess">{{ bookingSuccess }}</p>
+    <p class="error" *ngIf="bookingError">{{ bookingError }}</p>
+  </section>
+
+  <p *ngIf="loadingBookings">Loading bookings...</p>
+  <p class="error" *ngIf="!loadingBookings && error">{{ error }}</p>
+  <p *ngIf="!loadingBookings && !error && bookings.length === 0">No bookings found.</p>
+
+  <div class="table-wrap" *ngIf="!loadingBookings && !error && bookings.length > 0">
+    <table>
+      <thead>
+        <tr>
+          <th>Booking #</th>
+          <th>Hotel</th>
+          <th>Room</th>
+          <th>Check In</th>
+          <th>Check Out</th>
+          <th>Total</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let booking of bookings">
+          <td>{{ booking.bookingId }}</td>
+          <td>{{ booking.hotelName }}</td>
+          <td>{{ booking.roomType }}</td>
+          <td>{{ booking.checkInDate | date: 'mediumDate' }}</td>
+          <td>{{ booking.checkOutDate | date: 'mediumDate' }}</td>
+          <td>{{ booking.totalAmount | currency: 'INR' }}</td>
+          <td>{{ booking.status }}</td>
+          <td>
+            <button
+              class="btn btn-danger"
+              type="button"
+              (click)="cancelBooking(booking.bookingId)"
+              [disabled]="booking.status === 'Cancelled' || cancellingBookingId === booking.bookingId">
+              {{ cancellingBookingId === booking.bookingId ? 'Cancelling...' : 'Cancel' }}
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
