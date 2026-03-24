@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+}
+
+.add-hotel-form {
+  display: grid;
+  gap: 0.65rem;
+  max-width: 520px;
+  margin-bottom: 1rem;
+  padding: 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.message {
+  color: #0f766e;
+  font-weight: 600;
+}

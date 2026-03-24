@@ -1,0 +1,29 @@
+<section class="welcome-layout">
+  <div class="hero-panel">
+    <p class="kicker">Welcome</p>
+    <h1>Welcome to Hotel Booking App</h1>
+    <p class="hero-text">Create your user account to book hotels. Managers are created by admin when a hotel is added.</p>
+    <img src="/hotel-hero.svg" alt="Hotel booking illustration" />
+  </div>
+
+  <div class="auth-card">
+    <h2>Register</h2>
+
+    <form (ngSubmit)="onSubmit()">
+      <label>Name</label>
+      <input name="name" [(ngModel)]="name" required />
+
+      <label>Email</label>
+      <input name="email" [(ngModel)]="email" type="email" required />
+
+      <label>Password</label>
+      <input name="password" [(ngModel)]="password" type="password" required />
+
+      <button type="submit">Create Account</button>
+    </form>
+
+    <p *ngIf="message">{{ message }}</p>
+
+    <a class="admin-link" routerLink="/login">Admin Login</a>
+  </div>
+</section>

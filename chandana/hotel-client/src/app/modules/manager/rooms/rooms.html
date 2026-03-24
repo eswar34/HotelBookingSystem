@@ -1,0 +1,48 @@
+<section>
+  <h2>Rooms</h2>
+  <p>Manage rooms for your hotel (Hotel ID: {{ managedHotelId }}).</p>
+
+  <form class="room-form" (ngSubmit)="$event.preventDefault(); addRoom()">
+    <label>Room Type</label>
+    <input name="roomType" [(ngModel)]="roomType" placeholder="Deluxe Room" />
+
+    <label>Price</label>
+    <input name="price" type="number" [(ngModel)]="price" />
+
+    <label>Available Count</label>
+    <input name="availableCount" type="number" min="0" [(ngModel)]="availableCount" />
+
+    <button type="button" (click)="addRoom()">Add Room</button>
+  </form>
+
+  <p class="message" *ngIf="message">{{ message }}</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Room Type</th>
+        <th>Price</th>
+        <th>Available</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let room of rooms">
+        <td>
+          <input [name]="'type_' + room.id" [(ngModel)]="room.roomType" />
+        </td>
+        <td>
+          <input [name]="'price_' + room.id" type="number" [(ngModel)]="room.price" />
+        </td>
+        <td>
+          <input [name]="'available_' + room.id" type="number" min="0" [(ngModel)]="room.availableCount" />
+        </td>
+        <td>{{ room.availableCount > 0 ? 'available' : 'booked' }}</td>
+        <td>
+          <button type="button" (click)="saveRoom(room)">Save</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>

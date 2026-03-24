@@ -1,0 +1,19 @@
+<section>
+  <h2>Book Room</h2>
+  <p>Hotel ID: {{ hotelId }} | Room ID: {{ roomId }}</p>
+
+  <form (ngSubmit)="submitBooking()">
+    <label>Guest Name</label>
+    <input name="guestName" [(ngModel)]="guestName" />
+
+    <label>Check In</label>
+    <input name="checkIn" type="date" [(ngModel)]="checkIn" />
+
+    <label>Check Out</label>
+    <input name="checkOut" type="date" [(ngModel)]="checkOut" />
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+
+  <p>{{ message }}</p>
+</section>

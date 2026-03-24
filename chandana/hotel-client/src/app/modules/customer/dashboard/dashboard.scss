@@ -1,0 +1,28 @@
+.role-dashboard {
+  position: relative;
+  border-left: 6px solid #1d4ed8;
+  background: linear-gradient(145deg, #eff6ff 0%, #ffffff 65%);
+}
+
+.role-tag {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.links a {
+  background: #dbeafe;
+  color: #1e40af;
+  border-color: #bfdbfe;
+}

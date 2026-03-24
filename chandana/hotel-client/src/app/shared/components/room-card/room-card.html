@@ -1,0 +1,7 @@
+<div class="room-card">
+  <h4>{{ title }}</h4>
+  <p>Price per night: Rs {{ price }}</p>
+  <p>Available Rooms: {{ availableCount }}</p>
+  <app-status-badge [status]="status"></app-status-badge>
+  <button (click)="book.emit()" [disabled]="status !== 'available'">Book Now</button>
+</div>

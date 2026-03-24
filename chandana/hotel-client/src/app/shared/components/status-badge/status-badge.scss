@@ -1,0 +1,22 @@
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 0.75rem;
+}
+
+.confirmed,
+.available {
+  background: #16a34a;
+}
+
+.pending {
+  background: #ca8a04;
+}
+
+.cancelled,
+.booked {
+  background: #dc2626;
+}

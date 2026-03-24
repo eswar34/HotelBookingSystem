@@ -1,0 +1,40 @@
+<section>
+  <h2>Available Hotels</h2>
+  <p>Browse all hotels and use filters by location, room type, price, and date.</p>
+
+  <form class="filters" (ngSubmit)="$event.preventDefault(); applyFilters()">
+    <label>Location</label>
+    <input name="location" [(ngModel)]="location" placeholder="City" />
+
+    <label>Room Type</label>
+    <input name="roomType" [(ngModel)]="roomType" placeholder="Deluxe, Suite, Family..." />
+
+    <label>Min Price</label>
+    <input name="minPrice" type="number" [(ngModel)]="minPrice" />
+
+    <label>Max Price</label>
+    <input name="maxPrice" type="number" [(ngModel)]="maxPrice" />
+
+    <label>Check In</label>
+    <input name="checkInDate" type="date" [(ngModel)]="checkInDate" />
+
+    <label>Check Out</label>
+    <input name="checkOutDate" type="date" [(ngModel)]="checkOutDate" />
+
+    <div class="filter-actions">
+      <button type="button" (click)="applyFilters()">Apply Filters</button>
+      <button type="button" (click)="resetFilters()">Reset</button>
+    </div>
+  </form>
+
+  <div class="hotel-grid">
+    <article class="hotel-card" *ngFor="let hotel of filteredHotels">
+      <h3>{{ hotel.name }}</h3>
+      <p>{{ hotel.city }} | Rating: {{ hotel.rating }}</p>
+      <p>Starting Price: Rs {{ hotel.minPrice }}</p>
+      <a [routerLink]="['/user/hotel-detail', hotel.id]">View Details</a>
+    </article>
+  </div>
+
+  <p *ngIf="!filteredHotels.length">No hotels match your current filters.</p>
+</section>

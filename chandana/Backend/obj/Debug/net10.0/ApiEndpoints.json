@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "ManagerController",
+    "Method": "GetBooking",
+    "RelativePath": "api/Manager/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagerController",
+    "Method": "AddRoom",
+    "RelativePath": "api/Manager/{managerId}/rooms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "room",
+        "Type": "ManagerPart.Models.Room",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagerController",
+    "Method": "Approve",
+    "RelativePath": "api/Manager/approve/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagerController",
+    "Method": "GetBookingsByHotel",
+    "RelativePath": "api/Manager/hotel/{hotelId}/bookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagerController",
+    "Method": "GetPending",
+    "RelativePath": "api/Manager/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagerController",
+    "Method": "GetManager",
+    "RelativePath": "api/Manager/profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagerController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Manager/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

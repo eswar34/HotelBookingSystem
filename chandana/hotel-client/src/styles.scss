@@ -1,0 +1,135 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+a {
+  color: #0c4a6e;
+  text-decoration: none;
+}
+
+section {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+p {
+  color: #475569;
+}
+
+.links {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin-top: 0.8rem;
+}
+
+.links a {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 0.45rem 0.7rem;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  outline: none;
+  background: #fff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.52rem 0.85rem;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  padding: 0.65rem;
+}
+
+th {
+  background: #f8fafc;
+  color: #334155;
+}
+
+.auth-card,
+.booking-card,
+.booking-item,
+.hotel-card,
+.room-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.hotel-grid,
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 0.7rem;
+  }
+
+  section {
+    padding: 0.9rem;
+  }
+}

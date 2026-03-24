@@ -1,0 +1,17 @@
+<section>
+  <h2>Hotel Profile</h2>
+  <p>Assigned Hotel ID: {{ managedHotelId }}</p>
+
+  <form (ngSubmit)="saveProfile()">
+    <label>Hotel Name</label>
+    <input name="hotelName" [(ngModel)]="hotelName" />
+
+    <label>City</label>
+    <input name="city" [(ngModel)]="city" />
+
+    <label>Description</label>
+    <textarea name="description" [(ngModel)]="description"></textarea>
+
+    <button type="submit">Save</button>
+  </form>
+</section>
