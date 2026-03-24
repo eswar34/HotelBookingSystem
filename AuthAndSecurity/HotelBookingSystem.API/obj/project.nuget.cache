@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACgV3POKKGg=",
+  "dgSpecHash": "VH1bHqgyLF0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\HotelBookingSystem.API\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Documents\\GitHub\\HotelBookingSystem\\AuthAndSecurity\\HotelBookingSystem.API\\HotelBookingSystem.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
