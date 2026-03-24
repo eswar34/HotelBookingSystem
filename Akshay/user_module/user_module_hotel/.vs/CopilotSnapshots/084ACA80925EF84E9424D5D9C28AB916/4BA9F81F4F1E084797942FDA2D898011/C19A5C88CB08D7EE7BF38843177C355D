@@ -1,0 +1,18 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER;Database=HotelBookingDB;Trusted_Connection=true;Encrypt=false;"
+  },
+  "JwtSettings": {
+    "Key": "your-super-secret-key-minimum-32-characters-long-12345678",
+    "Issuer": "HotelBookingApp",
+    "Audience": "HotelBookingUsers",
+    "ExpiryInHours": "24"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

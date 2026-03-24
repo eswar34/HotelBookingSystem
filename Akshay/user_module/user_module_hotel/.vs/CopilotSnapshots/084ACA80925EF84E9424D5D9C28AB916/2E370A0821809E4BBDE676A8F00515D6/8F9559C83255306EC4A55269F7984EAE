@@ -1,0 +1,57 @@
+﻿using Microsoft.EntityFrameworkCore;
+using user_module_hotel.Data;
+using user_module_hotel.Models;
+using user_module_hotel.Repositories.Interfaces;
+
+namespace user_module_hotel.Repositories.Implementations
+{
+    public class HotelRepository : IHotelRepository
+    {
+        private readonly AppDbContext _context;
+
+        public HotelRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<List<Hotel>> GetApprovedAsync()
+        {
+            return await _context.Hotels
+                .Where(h => h.Status == "Approved")
+                .Include(h => h.HotelAmenities).ThenInclude(ha => ha.Amenity)
+                .Include(h => h.Rooms)
+                .ToListAsync();
+        }
+
+        public async Task<List<Hotel>> SearchAsync(string? city, string? roomType, decimal? minPrice, decimal? maxPrice)
+        {
+            var query = _context.Hotels
+                .Where(h => h.Status == "Approved")
+                .Include(h => h.HotelAmenities).ThenInclude(ha => ha.Amenity)
+                .Include(h => h.Rooms)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(city))
+                query = query.Where(h => h.City.ToLower().Contains(city.ToLower()));
+
+            if (!string.IsNullOrEmpty(roomType))
+                query = query.Where(h => h.Rooms.Any(r => r.RoomType.ToLower() == roomType.ToLower()));
+
+            if (minPrice.HasValue)
+                query = query.Where(h => h.Rooms.Any(r => r.PricePerNight >= minPrice.Value));
+
+            if (maxPrice.HasValue)
+                query = query.Where(h => h.Rooms.Any(r => r.PricePerNight <= maxPrice.Value));
+
+            return await query.ToListAsync();
+        }
+
+        public async Task<Hotel?> GetByIdAsync(int hotelId)
+        {
+            return await _context.Hotels
+                .Include(h => h.HotelAmenities).ThenInclude(ha => ha.Amenity)
+                .Include(h => h.Rooms)
+                .FirstOrDefaultAsync(h => h.HotelId == hotelId);
+        }
+    }
+}

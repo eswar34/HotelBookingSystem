@@ -1,0 +1,30 @@
+<section class="container detail-page" *ngIf="!loading && hotel; else stateBlock">
+  <h1>{{ hotel.hotelName }}</h1>
+  <p class="location">{{ hotel.city }} • {{ hotel.location }}</p>
+  <p class="rating">{{ hotel.starRating }} ★</p>
+  <p>{{ hotel.description }}</p>
+
+  <div class="chips">
+    <span class="chip" *ngFor="let amenity of hotel.amenities">{{ amenity }}</span>
+  </div>
+
+  <h2>Rooms</h2>
+  <div class="grid">
+    <app-room-card *ngFor="let room of rooms" [room]="room" (bookNow)="onBookNow($event)" />
+  </div>
+
+  <app-book-room
+    *ngIf="selectedRoom && hotel"
+    [room]="selectedRoom"
+    [hotelId]="hotel.hotelId"
+    (bookingSuccess)="onBookingSuccess()"
+    (closed)="onCloseBooking()"
+  />
+</section>
+
+<ng-template #stateBlock>
+  <section class="container detail-page">
+    <p *ngIf="loading">Loading hotel details...</p>
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+  </section>
+</ng-template>

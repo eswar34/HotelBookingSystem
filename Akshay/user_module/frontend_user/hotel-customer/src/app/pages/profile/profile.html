@@ -1,0 +1,42 @@
+<section class="container profile-page">
+  <h1>Profile</h1>
+
+  <article class="profile-card" *ngIf="user; else noUser">
+    <div class="row">
+      <span>Full Name</span>
+      <strong>{{ user.fullName }}</strong>
+    </div>
+    <div class="row">
+      <span>Email</span>
+      <strong>{{ user.email }}</strong>
+    </div>
+    <div class="row">
+      <span>Role</span>
+      <strong>{{ user.role }}</strong>
+    </div>
+    <div class="row">
+      <span>Gender</span>
+      <strong>{{ profileDetails.gender }}</strong>
+    </div>
+    <div class="row">
+      <span>Phone Number</span>
+      <strong>{{ profileDetails.phoneNumber }}</strong>
+    </div>
+    <div class="row">
+      <span>Address</span>
+      <strong>{{ profileDetails.address }}</strong>
+    </div>
+    <div class="row">
+      <span>Country</span>
+      <strong>{{ profileDetails.country }}</strong>
+    </div>
+    <div class="row">
+      <span>Member Since</span>
+      <strong>{{ (memberSince || '') | date:'mediumDate' }}</strong>
+    </div>
+  </article>
+
+  <ng-template #noUser>
+    <p>Profile not available.</p>
+  </ng-template>
+</section>

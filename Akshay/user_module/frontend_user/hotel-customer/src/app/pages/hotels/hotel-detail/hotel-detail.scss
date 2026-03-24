@@ -1,0 +1,48 @@
+.container {
+  width: min(1150px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.detail-page {
+  padding: 1.2rem 0 2.5rem;
+}
+
+.location {
+  color: #5b6477;
+}
+
+.rating {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+}
+
+.chip {
+  background: #e8f1fe;
+  border-radius: 999px;
+  color: #1a73e8;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.62rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.error {
+  color: #c62828;
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

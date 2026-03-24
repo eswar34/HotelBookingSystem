@@ -1,0 +1,18 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=HotelssBookingDB;User Id=sa;Password=Akshay@2005;TrustServerCertificate=True;MultipleActiveResultSets=True"
+  },
+  "JwtSettings": {
+    "Key": "HotelBookingSystem@SecretKey@2025@JWT@Token",
+    "Issuer": "HotelBookingSystem.API",
+    "Audience": "HotelBookingSystem.Client",
+    "ExpiryInHours": 8
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

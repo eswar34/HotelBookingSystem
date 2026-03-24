@@ -1,0 +1,26 @@
+<section class="booking-card">
+  <header>
+    <h3>Book {{ room.roomType }}</h3>
+    <button type="button" class="close" (click)="close()">×</button>
+  </header>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <label>
+      Check In
+      <input type="date" formControlName="checkInDate" [min]="minCheckInDate" />
+    </label>
+
+    <label>
+      Check Out
+      <input type="date" formControlName="checkOutDate" [min]="minCheckOutDate" />
+    </label>
+
+    <div class="total">Total Amount: <strong>${{ totalAmount }}</strong></div>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <button class="confirm" type="submit" [disabled]="loading">
+      {{ loading ? 'Booking...' : 'Confirm Booking' }}
+    </button>
+  </form>
+</section>

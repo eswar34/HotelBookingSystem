@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <a class="brand" routerLink="/">HotelNest</a>
+
+  <div class="links">
+    <a routerLink="/hotels" routerLinkActive="active">Hotels</a>
+    <a routerLink="/my-bookings" routerLinkActive="active">My Bookings</a>
+    <a routerLink="/profile" routerLinkActive="active">Profile</a>
+  </div>
+
+  <div class="actions" *ngIf="!isLoggedIn">
+    <a class="btn ghost" routerLink="/login">Login</a>
+    <a class="btn primary" routerLink="/register">Register</a>
+  </div>
+
+  <div class="actions" *ngIf="isLoggedIn">
+    <span class="user">{{ userName }}</span>
+    <button class="btn primary" type="button" (click)="logout()">Logout</button>
+  </div>
+</nav>
