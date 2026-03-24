@@ -1,0 +1,15 @@
+<section class="auth-home">
+  <article class="card">
+    <h1>Hotel Customer Module</h1>
+    <p>Login or register to continue to the hotel filters page.</p>
+
+    <div class="actions" *ngIf="!isLoggedIn">
+      <a class="btn primary" routerLink="/login">Login</a>
+      <a class="btn outline" routerLink="/register">Registration</a>
+    </div>
+
+    <div class="actions" *ngIf="isLoggedIn">
+      <a class="btn primary" routerLink="/hotels">Open Filters Page</a>
+    </div>
+  </article>
+</section>

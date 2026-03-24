@@ -1,0 +1,24 @@
+<section class="auth-shell">
+  <form class="auth-card" [formGroup]="form" (ngSubmit)="submit()">
+    <h1>Welcome Back</h1>
+    <p>Login to manage your bookings.</p>
+
+    <label>
+      Email
+      <input type="email" formControlName="email" placeholder="you@example.com" />
+    </label>
+
+    <label>
+      Password
+      <input type="password" formControlName="password" placeholder="Enter password" />
+    </label>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <button type="submit" [disabled]="loading">
+      {{ loading ? 'Logging in...' : 'Login' }}
+    </button>
+
+    <a routerLink="/register">New user? Register</a>
+  </form>
+</section>

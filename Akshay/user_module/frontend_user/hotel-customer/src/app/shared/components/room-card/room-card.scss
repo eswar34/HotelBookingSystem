@@ -1,0 +1,38 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+p {
+  color: #5b6477;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.35rem 0;
+}
+
+.btn {
+  margin-top: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  background: #1a73e8;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background: #9fb9e6;
+}

@@ -1,0 +1,27 @@
+.container {
+  width: min(700px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.profile-page {
+  padding: 1.2rem 0 2.5rem;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid #edf1f7;
+  padding: 0.7rem 0;
+}
+
+.row:last-child {
+  border-bottom: none;
+}

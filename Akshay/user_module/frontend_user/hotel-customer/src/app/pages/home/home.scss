@@ -1,0 +1,50 @@
+.auth-home {
+  min-height: calc(100vh - 72px);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: #f6f8fc;
+}
+
+.card {
+  width: min(460px, 100%);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.4rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.7rem;
+}
+
+p {
+  margin: 0;
+  color: #5b6477;
+}
+
+.actions {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary {
+  background: #1a73e8;
+  color: #fff;
+}
+
+.outline {
+  border: 1px solid #1a73e8;
+  color: #1a73e8;
+}
