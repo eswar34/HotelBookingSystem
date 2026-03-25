@@ -1,0 +1,36 @@
+<section class="card bookings-wrap">
+  <h2>All Bookings</h2>
+
+  <p *ngIf="loading">Loading bookings...</p>
+  <p class="error" *ngIf="!loading && error">{{ error }}</p>
+  <p *ngIf="!loading && !error && bookings.length === 0">No bookings found.</p>
+
+  <div class="table-wrap" *ngIf="!loading && !error && bookings.length > 0">
+    <table>
+      <thead>
+        <tr>
+          <th>Booking #</th>
+          <th>Customer</th>
+          <th>Hotel</th>
+          <th>Room</th>
+          <th>Check In</th>
+          <th>Check Out</th>
+          <th>Total</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let booking of bookings">
+          <td>{{ booking.bookingId }}</td>
+          <td>{{ booking.customerName }}</td>
+          <td>{{ booking.hotelName }}</td>
+          <td>{{ booking.roomType }}</td>
+          <td>{{ booking.checkInDate | date: 'mediumDate' }}</td>
+          <td>{{ booking.checkOutDate | date: 'mediumDate' }}</td>
+          <td>{{ booking.totalAmount | currency: 'INR' }}</td>
+          <td>{{ booking.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+<section>
+  <h2>Bookings</h2>
+  <p>Showing users who booked your hotel (Hotel ID: {{ managedHotelId }}).</p>
+
+  <div class="booking-item" *ngFor="let booking of bookings">
+    <p>Guest Name: {{ booking.guestName }}</p>
+    <p>User Email: {{ booking.userEmail }}</p>
+    <p>Hotel ID: {{ booking.hotelId }}</p>
+    <p>Room ID: {{ booking.roomId }}</p>
+    <app-status-badge [status]="booking.status"></app-status-badge>
+  </div>
+
+  <p *ngIf="!bookings.length">No bookings found for your hotel yet.</p>
+</section>

@@ -1,0 +1,29 @@
+<section class="auth-wrap card">
+  <h2>Create Account</h2>
+  <p class="hint">Register as a customer</p>
+
+  <form [formGroup]="form" (ngSubmit)="submit()" class="auth-form">
+    <label>
+      Full Name
+      <input formControlName="fullName" type="text" />
+    </label>
+
+    <label>
+      Email
+      <input formControlName="email" type="email" />
+    </label>
+
+    <label>
+      Password
+      <input formControlName="password" type="password" />
+    </label>
+
+    <p class="error" *ngIf="error">{{ error }}</p>
+
+    <button class="btn btn-primary" [disabled]="loading" type="submit">
+      {{ loading ? 'Creating...' : 'Register' }}
+    </button>
+  </form>
+
+  <p>Already have an account? <a routerLink="/login">Login</a></p>
+</section>

@@ -1,0 +1,6 @@
+﻿namespace user_module_hotel.Controllers
+{
+    public class HotelController
+    {
+    }
+}

@@ -1,0 +1,950 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\dtos\\amenity\\amenitydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:dtos\\amenity\\amenitydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\implementations\\amenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\implementations\\amenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\interfaces\\iamenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\interfaces\\iamenityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\models\\hotelamenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:models\\hotelamenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\models\\amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:models\\amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\interfaces\\iamenityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\interfaces\\iamenityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\implementations\\amenityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\implementations\\amenityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\enums\\hotelstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:enums\\hotelstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\implementations\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\implementations\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\dtos\\manager\\managerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:dtos\\manager\\managerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Migrations\\20260324074236_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260324074236_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\implementations\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\implementations\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\implementations\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\implementations\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\implementations\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\implementations\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\interfaces\\ihotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\interfaces\\ihotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\implementations\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\implementations\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\implementations\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\implementations\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\repositories\\interfaces\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:repositories\\interfaces\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\dtos\\booking\\bookingdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:dtos\\booking\\bookingdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\dtos\\room\\roomdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:dtos\\room\\roomdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\dtos\\hotel\\hoteldtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:dtos\\hotel\\hoteldtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\dtos\\auth\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:dtos\\auth\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|c:\\users\\dell\\onedrive\\desktop\\hcl_training\\hotelbookingsystem.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987CDF55-48AB-4227-A881-494193E0A788}|HotelBookingSystem.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Amenity.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Amenity.cs",
+              "RelativeDocumentMoniker": "Models\\Amenity.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Amenity.cs",
+              "RelativeToolTip": "Models\\Amenity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:57:59.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HotelAmenity.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\HotelAmenity.cs",
+              "RelativeDocumentMoniker": "Models\\HotelAmenity.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\HotelAmenity.cs",
+              "RelativeToolTip": "Models\\HotelAmenity.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:58:13.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAmenityService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IAmenityService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAmenityService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IAmenityService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAmenityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:12:24.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AmenityService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\AmenityService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AmenityService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\AmenityService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AmenityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:15:30.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AmenityDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Amenity\\AmenityDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\Amenity\\AmenityDtos.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Amenity\\AmenityDtos.cs",
+              "RelativeToolTip": "DTOs\\Amenity\\AmenityDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:02:40.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AmenityController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\AmenityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AmenityController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\AmenityController.cs",
+              "RelativeToolTip": "Controllers\\AmenityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:25:54.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:59:10.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAmenityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IAmenityRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAmenityRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IAmenityRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAmenityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:04:22.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AmenityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\AmenityRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\AmenityRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\AmenityRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\AmenityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:06:57.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:55:24.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoomStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\RoomStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\RoomStatus.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\RoomStatus.cs",
+              "RelativeToolTip": "Enums\\RoomStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:56:09.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HotelStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\HotelStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\HotelStatus.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\HotelStatus.cs",
+              "RelativeToolTip": "Enums\\HotelStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:55:54.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\BookingStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\BookingStatus.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Enums\\BookingStatus.cs",
+              "RelativeToolTip": "Enums\\BookingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:55:40.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\BookingRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\BookingRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:06:37.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:12:37.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T07:55:14.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManagerDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Manager\\ManagerDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\Manager\\ManagerDtos.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Manager\\ManagerDtos.cs",
+              "RelativeToolTip": "DTOs\\Manager\\ManagerDtos.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:01:22.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260324074236_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Migrations\\20260324074236_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260324074236_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Migrations\\20260324074236_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260324074236_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:42:37.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:03:17.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:54:32.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvz8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:25:37.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:13:58.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "Controllers\\RoomController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:25:05.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "Controllers\\HotelController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAADwv1AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:24:43.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\AuthRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\AuthRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:05:32.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvzoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:24:12.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvx8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:23:54.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\BookingService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\BookingService.cs",
+              "RelativeToolTip": "Services\\Implementations\\BookingService.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAuwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:15:08.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\RoomService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\RoomService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\RoomService.cs",
+              "RelativeToolTip": "Services\\Implementations\\RoomService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:14:35.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\HotelService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\HotelService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\HotelService.cs",
+              "RelativeToolTip": "Services\\Implementations\\HotelService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAuwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:14:15.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:13:22.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:12:03.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IRoomService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IRoomService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:11:48.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IHotelService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IHotelService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IHotelService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IHotelService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IHotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:11:30.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:08:59.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T07:07:47.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:07:14.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\RoomRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\RoomRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:06:22.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HotelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\HotelRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\HotelRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Implementations\\HotelRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\HotelRepository.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAuwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:05:53.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:04:45.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IBookingRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:04:02.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IRoomRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRoomRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IRoomRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:03:45.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IHotelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IHotelRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IHotelRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Repositories\\Interfaces\\IHotelRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IHotelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:03:29.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BookingDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Booking\\BookingDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\Booking\\BookingDtos.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Booking\\BookingDtos.cs",
+              "RelativeToolTip": "DTOs\\Booking\\BookingDtos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:02:22.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RoomDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Room\\RoomDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\Room\\RoomDtos.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Room\\RoomDtos.cs",
+              "RelativeToolTip": "DTOs\\Room\\RoomDtos.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:01:59.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HotelDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Hotel\\HotelDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\Hotel\\HotelDtos.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Hotel\\HotelDtos.cs",
+              "RelativeToolTip": "DTOs\\Hotel\\HotelDtos.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA2wCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:01:42.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Auth\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\DTOs\\Auth\\AuthDtos.cs",
+              "RelativeToolTip": "DTOs\\Auth\\AuthDtos.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:00:35.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:00:01.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:59:39.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:58:49.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:57:45.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:57:28.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\Hotel.cs",
+              "RelativeToolTip": "Models\\Hotel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:57:03.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\hcl_training\\HotelBookingSystem.API\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:56:48.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

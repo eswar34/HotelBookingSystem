@@ -1,0 +1,45 @@
+<section>
+  <h2>Manager Approvals</h2>
+  <p>Approve manager registrations before they can login.</p>
+
+  <p class="message" *ngIf="message">{{ message }}</p>
+
+  <h3>Pending Requests</h3>
+  <table *ngIf="pendingManagers.length; else noPending">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Hotel Name</th>
+        <th>Hotel ID</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let manager of pendingManagers">
+        <td>{{ manager.name }}</td>
+        <td>{{ manager.email }}</td>
+        <td>{{ manager.managedHotelName }}</td>
+        <td>{{ manager.managedHotelId }}</td>
+        <td>
+          <button type="button" (click)="approve(manager.email)">Approve</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #noPending>
+    <p>No pending manager requests.</p>
+  </ng-template>
+
+  <h3>Approved Managers</h3>
+  <ul *ngIf="approvedManagers.length; else noApproved">
+    <li *ngFor="let manager of approvedManagers">
+      {{ manager.name }} ({{ manager.email }}) - {{ manager.managedHotelName }} (Hotel ID {{ manager.managedHotelId }})
+    </li>
+  </ul>
+
+  <ng-template #noApproved>
+    <p>No approved managers yet.</p>
+  </ng-template>
+</section>

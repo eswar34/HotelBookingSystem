@@ -1,0 +1,17 @@
+<section class="auth-card">
+  <h2>Login</h2>
+  <p>Login with your email and password. Role is detected automatically.</p>
+
+  <form (ngSubmit)="onSubmit()">
+    <label>Email</label>
+    <input name="email" [(ngModel)]="email" type="email" required />
+
+    <label>Password</label>
+    <input name="password" [(ngModel)]="password" type="password" required />
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+    <button type="submit">Login</button>
+  </form>
+
+  <p>Admin demo login: admin@hotel.com / admin123</p>
+</section>

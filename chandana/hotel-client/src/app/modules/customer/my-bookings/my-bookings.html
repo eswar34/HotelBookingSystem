@@ -1,0 +1,16 @@
+<section>
+  <h2>My Bookings</h2>
+  <p>Track booking status and perform basic booking actions.</p>
+
+  <div class="booking-card" *ngFor="let booking of bookings">
+    <p>Guest: {{ booking.guestName }}</p>
+    <p>Stay: {{ booking.checkIn }} to {{ booking.checkOut }}</p>
+    <p>Hotel ID: {{ booking.hotelId }} | Room ID: {{ booking.roomId }}</p>
+    <app-status-badge [status]="booking.status"></app-status-badge>
+
+    <div class="actions">
+      <button type="button">Cancel</button>
+      <button type="button">Quick Rebook</button>
+    </div>
+  </div>
+</section>

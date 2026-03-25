@@ -1,0 +1,60 @@
+using user_module_hotel.DTOs.Auth;
+using user_module_hotel.Helpers;
+using user_module_hotel.Models;
+using user_module_hotel.Repositories.Interfaces;
+using user_module_hotel.Services.Interfaces;
+
+namespace user_module_hotel.Services.Implementations
+{
+    public class AuthService : IAuthService
+    {
+        private readonly IUserRepository _userRepository;
+        private readonly JwtHelper _jwtHelper;
+
+        public AuthService(IUserRepository userRepository, JwtHelper jwtHelper)
+        {
+            _userRepository = userRepository;
+            _jwtHelper = jwtHelper;
+        }
+
+        public async Task<AuthResponseDto?> RegisterAsync(RegisterDto dto)
+        {
+            var existingUser = await _userRepository.GetByEmailAsync(dto.Email);
+            if (existingUser != null)
+                return null;
+
+            var user = new User
+            {
+                FullName = dto.FullName,
+                Email = dto.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+                Role = "Customer"
+            };
+
+            await _userRepository.CreateAsync(user);
+
+            return new AuthResponseDto
+            {
+                UserId = user.UserId,
+                FullName = user.FullName,
+                Email = user.Email,
+                Token = _jwtHelper.GenerateToken(user)
+            };
+        }
+
+        public async Task<AuthResponseDto?> LoginAsync(LoginDto dto)
+        {
+            var user = await _userRepository.GetByEmailAsync(dto.Email);
+            if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
+                return null;
+
+            return new AuthResponseDto
+            {
+                UserId = user.UserId,
+                FullName = user.FullName,
+                Email = user.Email,
+                Token = _jwtHelper.GenerateToken(user)
+            };
+        }
+    }
+}

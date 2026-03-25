@@ -1,0 +1,16 @@
+<nav class="navbar">
+  <a class="brand" routerLink="/">Hotel Booking</a>
+
+  <div class="links">
+    <a routerLink="/user/hotels" routerLinkActive="active">Hotels</a>
+    <a *ngIf="authService.getRole() === 'user'" routerLink="/user/my-bookings" routerLinkActive="active">My Bookings</a>
+    <a *ngIf="authService.getRole() === 'manager'" routerLink="/manager/dashboard" routerLinkActive="active">Manager</a>
+    <a *ngIf="authService.getRole() === 'admin'" routerLink="/admin/dashboard" routerLinkActive="active">Admin</a>
+  </div>
+
+  <div class="auth">
+    <a *ngIf="!authService.isLoggedIn()" routerLink="/login">Login</a>
+    <a *ngIf="!authService.isLoggedIn()" routerLink="/register">Register</a>
+    <button *ngIf="authService.isLoggedIn()" (click)="logout()">Logout</button>
+  </div>
+</nav>

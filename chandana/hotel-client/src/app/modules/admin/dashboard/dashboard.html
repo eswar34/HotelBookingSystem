@@ -1,0 +1,46 @@
+<section class="role-dashboard admin-theme">
+  <span class="role-tag">Admin</span>
+  <h2>Admin Dashboard</h2>
+  <p>Full platform control for hotel operations and user governance.</p>
+
+  <div class="links">
+    <a routerLink="/admin/managers">Managers</a>
+    <a routerLink="/admin/hotels">Hotels</a>
+  </div>
+
+  <h3>All Managers</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Hotel</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let manager of managers">
+        <td>{{ manager.name }}</td>
+        <td>{{ manager.email }}</td>
+        <td>{{ manager.managedHotelName }}</td>
+        <td>{{ manager.approvalStatus }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>All Users</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

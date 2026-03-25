@@ -1,0 +1,21 @@
+<article class="card">
+  <h4>{{ room.roomType }}</h4>
+  <p>{{ room.description }}</p>
+
+  <div class="row">
+    <span>Price</span>
+    <strong>${{ room.pricePerNight }}</strong>
+  </div>
+  <div class="row">
+    <span>Capacity</span>
+    <strong>{{ room.capacity }}</strong>
+  </div>
+  <div class="row">
+    <span>Available</span>
+    <strong>{{ room.availableRooms }}</strong>
+  </div>
+
+  <button class="btn" type="button" [disabled]="room.availableRooms < 1" (click)="onBookNow()">
+    Book Now
+  </button>
+</article>

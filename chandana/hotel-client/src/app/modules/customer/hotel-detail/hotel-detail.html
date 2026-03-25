@@ -1,0 +1,20 @@
+<section *ngIf="hotel; else notFound">
+  <h2>{{ hotel.name }}</h2>
+  <p>{{ hotel.city }} | Rating: {{ hotel.rating }}</p>
+
+  <h3>Rooms</h3>
+  <div class="room-grid">
+    <app-room-card
+      *ngFor="let room of rooms"
+      [title]="room.title"
+      [price]="room.price"
+      [availableCount]="room.availableCount"
+      [status]="room.status"
+      (book)="bookRoom(room.id)">
+    </app-room-card>
+  </div>
+</section>
+
+<ng-template #notFound>
+  <p>Hotel not found.</p>
+</ng-template>
