@@ -1,0 +1,13 @@
+<article class="room-card">
+  <h4>{{ room.roomType }}</h4>
+  <p>{{ room.description }}</p>
+  <div class="meta-row">
+    <span>{{ room.pricePerNight | currency:'INR':'symbol':'1.0-0' }}/night</span>
+    <span>Capacity: {{ room.capacity }}</span>
+    <span>Available: {{ room.availableRooms }}</span>
+    <app-status-badge [status]="room.status" />
+  </div>
+  <button *ngIf="showBookButton" type="button" (click)="onBook()" [disabled]="room.availableRooms <= 0">
+    Book Now
+  </button>
+</article>

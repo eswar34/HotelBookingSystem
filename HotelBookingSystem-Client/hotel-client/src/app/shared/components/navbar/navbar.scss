@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #334155;
+}
+
+.logout-btn {
+  border: 0;
+  padding: 0.45rem 0.9rem;
+  background: #0ea5e9;
+  color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+}
